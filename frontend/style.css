@@ -1,0 +1,101 @@
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  background-image: url(Todo\ background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  padding-bottom: 2.5rem;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  min-height: 66vh;
+  width: 50%;
+  overflow: auto;
+  border-radius: 0.6rem;
+}
+
+.card-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+input {
+  background-color: rgb(252, 210, 198);
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.3rem;
+  width: 80%;
+}
+
+.btn {
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+  background-color: orange;
+  color: whitesmoke;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(243, 129, 63);
+  color: rgb(112, 94, 94);
+}
+
+#addTodoBtn {
+  width: 17%;
+}
+
+.li-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(250, 193, 177);
+  color: #333;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  margin: 1rem 0;
+  transition: all 0.3s;
+}
+
+.li-style:hover {
+  background-color: #c5c0c0;
+}
+
+.bg-success {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  color: black;
+  background-color: rgb(118, 238, 212);
+  border-left: 6px solid blue;
+}
+
+.bg-danger {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  color: black;
+  background-color: #ffdddd;
+  border-left: 6px solid red;
+}
